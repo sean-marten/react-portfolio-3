@@ -7,7 +7,7 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <Router basename={"https://sean-marten.github.io/react-portfolio-3/"}>
+    <Router basename={""}>
       <Navbar />
       <Route path="/contact" component={Contact} />
       <Route path="/portfolio" component={Portfolio} />
