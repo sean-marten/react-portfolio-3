@@ -10,6 +10,7 @@ import ReadmeGenerator from "../assets/readme-generator.png";
 import SoftwareQuiz from "../assets/software-quiz.jpg";
 import WeatherDashboard from "../assets/weather-dashboard.png";
 import HypeType from "../assets/typing.png";
+import Book from "../assets/book.png";
 import { Grid } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
@@ -100,6 +101,13 @@ export default function Portfolio() {
             title="Hype Type"
             img={HypeType}
             link={"https://hype-type.herokuapp.com/"}
+          />
+        </Grid>
+        <Grid item xs={12} sm={6} md={4}>
+          <PorftolioCard
+            title="Google Book Search"
+            img={Book}
+            link={"https://warm-sierra-09158.herokuapp.com/#/"}
           />
         </Grid>
       </Grid>
